@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menuButton {
+  margin-right: 10px !important;
+}
+
+.paper-div {
+  background-color: #3f51b5 !important;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  color: white !important;
+  text-align: center !important;
+}
+
+.divider-margin {
+  margin-top: 10px !important;
+}
+
+.paper-div h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.color-button {
+  width: 70px;
+  height: 30px;
+  display: inline-block !important;
+  margin: 3px !important;
+}
+
+h3 {
+  color: whitesmoke;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.size-button {
+  width: 35px;
+  height: 25px;
+  margin: 3px !important;
+}
+
+#main-grid-div {
+  display: grid;
+  width: 100%;
+  height: 80vh;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: auto;
+}
+
+#canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#top-div {
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+h2 {
+  color: white;
+}
+
+#canvas-div {
+  background-color: white;
+  border: 8px solid #C8A165;
+  border-radius: 10px;
+  padding: 0 !important;
+}
+
+.grid-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
